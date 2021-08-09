@@ -1,0 +1,65 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.navcolor
+{
+    background-color: #FFF9F4;
+}
+nav img
+{
+    height: 4.8vw;
+    width: 19.5vw;
+}
+.logo
+{
+    margin-left: 10vw;
+}
+.item
+{
+    margin-right: 7vw;
+}
+.itemmiddle
+{
+    margin: 0vw 3vw 0vw 0vw;
+    color: #3C3C3C;
+    font-weight: 600;
+}
+
+.row
+{
+    margin-bottom: 1vw;
+}
+.navbottom img 
+{
+    height: 30vw;
+    width: 40vw;
+} 
+#header1
+{
+    color:#FA804C;
+}
+.header2
+{
+    color: rgb(39, 2, 78);
+}
+.btn img
+{
+    height: 20px;
+    width: 20px;
+}
+
+.box
+{
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px  #d1cfcf;
+}
+
+.footerimg img
+{
+    height: 70px;
+    width: 55px
+}
