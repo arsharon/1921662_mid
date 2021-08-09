@@ -42,5 +42,32 @@ nav img
 {
     height: 30vw;
     width: 40vw;
-} 
+}
 
+.modal-body img
+{
+    width: 331px;
+height: 234px;
+}
+
+/* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+  .my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
+  // All animations will take twice the time to accomplish
+document.documentElement.style.setProperty('--animate-duration', '2s');
